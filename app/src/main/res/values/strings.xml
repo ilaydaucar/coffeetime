@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">CoffeeTime</string>
+    <string name="registrationname">Name</string>
+    <string name="registrationsurname">Surname</string>
+    <string name="useragreement">User Agreement</string>
+    <string name="allreadyregistered">Allready Registered?</string>
+    <string name="registerbutton">Register</string>
+    <string name="registrationpage">Registration Page</string>
 </resources>
