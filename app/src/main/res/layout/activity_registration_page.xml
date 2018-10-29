@@ -102,6 +102,7 @@
             android:layout_gravity="left"
             android:layout_marginTop="15dp"
             android:layout_marginBottom="20dp"
+            android:background="@color/colorButton"
             android:text="@string/registerbutton"
             tools:text="register" />
 
@@ -115,11 +116,12 @@
             tools:text="Already Registered? " />
 
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/registerLogin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:layout_weight="1"
+            android:clickable="true"
             android:text="Login!"
             android:textColor="@android:color/holo_blue_dark"
             android:textStyle="bold" />

@@ -6,4 +6,5 @@
     <string name="allreadyregistered">Allready Registered?</string>
     <string name="registerbutton">Register</string>
     <string name="registrationpage">Registration Page</string>
+    <string name="noaccount">Don\'t have an account.</string>
 </resources>
