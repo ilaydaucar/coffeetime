@@ -16,9 +16,27 @@
                             <entry key="launcher">
                               <value>
                                 <PersistentState>
+                                  <option name="children">
+                                    <map>
+                                      <entry key="foregroundImage">
+                                        <value>
+                                          <PersistentState>
+                                            <option name="values">
+                                              <map>
+                                                <entry key="scalingPercent" value="141" />
+                                              </map>
+                                            </option>
+                                          </PersistentState>
+                                        </value>
+                                      </entry>
+                                    </map>
+                                  </option>
                                   <option name="values">
                                     <map>
-                                      <entry key="foregroundImage" value="$USER_HOME$/Downloads/WhatsApp Image 2018-10-28 at 16.24.40.jpeg" />
+                                      <entry key="backgroundLayerName" value="ic_launcher_background" />
+                                      <entry key="foregroundImage" value="C:\Users\Sude Demircan\Desktop\ink\start_page\final-afiş.png" />
+                                      <entry key="foregroundLayerName" value="first_page_poster" />
+                                      <entry key="outputName" value="first_page" />
                                     </map>
                                   </option>
                                 </PersistentState>
