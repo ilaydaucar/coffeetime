@@ -23,8 +23,9 @@
 
     <ImageView
         android:id="@+id/loginLogo"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/oval_shape"
         android:contentDescription="TODO"
         app:srcCompat="@mipmap/ic_launcher_foreground" />
 

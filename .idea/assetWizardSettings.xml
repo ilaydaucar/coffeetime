@@ -23,7 +23,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="scalingPercent" value="145" />
+                                                <entry key="scalingPercent" value="112" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -34,9 +34,9 @@
                                   <option name="values">
                                     <map>
                                       <entry key="backgroundLayerName" value="ic_launcher_background" />
-                                      <entry key="foregroundImage" value="C:\Users\Sude Demircan\Desktop\ink\start_page\final-afiş.png" />
-                                      <entry key="foregroundLayerName" value="first_page_poster" />
-                                      <entry key="outputName" value="first_page" />
+                                      <entry key="foregroundImage" value="C:\Users\Sude Demircan\Desktop\ink\coffee-cup.png" />
+                                      <entry key="foregroundLayerName" value="coffee_cup_500ml" />
+                                      <entry key="outputName" value="cup_ml" />
                                     </map>
                                   </option>
                                 </PersistentState>

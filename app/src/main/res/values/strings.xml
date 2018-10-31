@@ -1,10 +1,37 @@
 <resources>
-    <string name="app_name">CoffeeTime</string>
+
+    <string-array name="coffee_array">
+        <item>Café Latte</item>
+        <item>Caffè Americano</item>
+        <item>Cappuccino</item>
+        <item>Espresso</item>
+        <item>Flat White</item>
+        <item>Long Black</item>
+        <item>Macchiato</item>
+    </string-array>
+
+    <string-array name="milk_array">
+        <item>None</item>
+        <item>Nonefat Milk</item>
+        <item>Reduced-Fat Milk</item>
+        <item>Soymilk</item>
+        <item>Whole Milk</item>
+    </string-array>
+
+    <string name="app_name">Coffee Time</string>
+
     <string name="registrationname">Name</string>
+
     <string name="registrationsurname">Surname</string>
-    <string name="useragreement">User Agreement</string>
-    <string name="allreadyregistered">Allready Registered?</string>
+
+    <string name="useragreement">Accept User Agreement</string>
+
+    <string name="alreadyregistered">Already Registered?</string>
+
     <string name="registerbutton">Register</string>
+
     <string name="registrationpage">Registration Page</string>
+
     <string name="noaccount">Don\'t have an account.</string>
+
 </resources>
