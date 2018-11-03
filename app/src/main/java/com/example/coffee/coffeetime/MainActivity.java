@@ -30,5 +30,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intentlogin);
             }
         });
+        Button navmenu = findViewById(R.id.go_navigation);
+        navmenu.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intentnavmenu = new Intent(MainActivity.this, MainMenu.class);
+                startActivity(intentnavmenu);
+            }
+
+        });
     }
 }

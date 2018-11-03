@@ -33,5 +33,19 @@
     <string name="registrationpage">Registration Page</string>
 
     <string name="noaccount">Don\'t have an account.</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Owl User</string>
+    <string name="nav_header_subtitle">10 Coffee Beans</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="nav_notification">Notifications</string>
+    <string name="nav_orders">My Orders</string>
+    <string name="nav_mycard">My Card</string>
+    <string name="nav_favourite">Favourites</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_logout">Logout</string>
+    <string name="nav_coffee_beans">Coffe Beans</string>
 
 </resources>
