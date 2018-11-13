@@ -1,5 +1,6 @@
 package com.example.coffee.coffeetime;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -16,8 +17,8 @@ public class OrderStep1 extends AppCompatActivity {
         continue_button.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
+                startActivity(new Intent(OrderStep1.this, OrderStep2.class));
 
-///                startActivity(new Intent(OrderStep2.this, MyOrders.class));
             }
         });
 

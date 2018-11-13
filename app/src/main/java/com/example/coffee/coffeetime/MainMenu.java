@@ -1,5 +1,6 @@
 package com.example.coffee.coffeetime;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -12,10 +13,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
 
 public class MainMenu extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -76,6 +78,8 @@ public class MainMenu extends AppCompatActivity
         if (id == R.id.nav_notifications) {
             // Handle the camera action
         } else if (id == R.id.nav_orders) {
+            Intent MyOrders = new Intent(MainMenu.this, MyOrders.class);
+            startActivity(MyOrders);
 
         } else if (id == R.id.nav_mycard) {
 
@@ -86,7 +90,8 @@ public class MainMenu extends AppCompatActivity
         } else if (id == R.id.nav_settings) {
 
         } else if (id==R.id.nav_logout){
-
+            Intent Logout = new Intent(MainMenu.this, Login.class);
+            startActivity(Logout);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
