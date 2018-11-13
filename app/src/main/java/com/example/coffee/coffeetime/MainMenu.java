@@ -17,7 +17,7 @@ import android.widget.Button;
 
 public class MainMenu extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-    
+    Button giveOrderButtonInHomePage;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,6 +35,16 @@ public class MainMenu extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        giveOrderButtonInHomePage = findViewById(R.id.giveOrderButtonInHomePage);
+        giveOrderButtonInHomePage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent loginToMainMenu = new Intent(MainMenu.this,OrderStep1.class);
+                startActivity(loginToMainMenu);
+            }
+        });
+
     }
 
     @Override
