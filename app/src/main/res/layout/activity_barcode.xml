@@ -34,7 +34,7 @@
         android:layout_marginStart="0dp"
         android:layout_marginLeft="0dp"
         android:layout_marginTop="104dp"
-        app:srcCompat="@mipmap/qrcodeimage" />
+        app:srcCompat="@mipmap/qrcodeimageview" />
 
     <Button
         android:id="@+id/homePageButtonBarcode"
@@ -43,7 +43,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginLeft="10dp"
+        android:layout_marginLeft="15dp"
         android:layout_marginBottom="23dp"
         android:layout_weight="1"
         android:background="@color/colorSoil"
@@ -57,6 +57,7 @@
         android:layout_alignTop="@+id/homePageButtonBarcode"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
         android:layout_marginBottom="81dp"
         android:layout_weight="1"
         android:background="@color/colorSoil"
