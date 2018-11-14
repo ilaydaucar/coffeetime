@@ -8,7 +8,7 @@
     tools:context="com.example.coffee.coffeetime.OrderStep3">
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imageCreditCards"
         android:layout_width="match_parent"
         android:layout_height="160dp"
         app:srcCompat="@mipmap/creditcardimage" />
@@ -88,7 +88,7 @@
             android:textStyle="normal" />
 
         <View
-            android:id="@+id/divider7"
+            android:id="@+id/divider"
             android:layout_width="1dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
