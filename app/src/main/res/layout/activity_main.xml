@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorGreen"
+    android:gravity="center"
     android:orientation="vertical">
 
     <!--android:src="@mipmap/first_page" -->
@@ -15,26 +16,22 @@
         android:id="@+id/posterImage"
         android:layout_width="match_parent"
         android:layout_height="390dp"
+        android:layout_marginTop="-40dp"
         app:srcCompat="@mipmap/first_page_poster" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal">
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="REGISTER" />
 
-        <Button
-            android:id="@+id/registerButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="REGISTER" />
-
-        <Button
-            android:id="@+id/loginButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="LOGIN" />
-    </LinearLayout>
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="75dp"
+        android:layout_weight="1"
+        android:text="LOGIN" />
 
 </LinearLayout>
