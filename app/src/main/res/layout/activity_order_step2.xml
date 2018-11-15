@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="52dp"
         android:gravity="center"
-        android:text="Please choose a location to get your coffee"
+        android:text="Please choose a store as your location to get your coffee"
         android:textColor="@android:color/black"
         android:textColorLink="@android:color/black"
         android:textSize="24sp"
@@ -23,7 +23,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imageMap"
         android:layout_width="0dp"
         android:layout_height="0dp"
 
