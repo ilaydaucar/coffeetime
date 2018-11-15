@@ -271,13 +271,26 @@
 
         </TableLayout>
 
-        <Button
-            android:id="@+id/reorderButtton1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:text="reorder"
-            android:textSize="16sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/reorderButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="reorder"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageReorderDescription"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@android:drawable/ic_menu_help" />
+        </LinearLayout>
 
     </LinearLayout>
 
@@ -301,6 +314,6 @@
         android:layout_marginRight="25dp"
         android:layout_marginBottom="5dp"
         android:background="@color/colorButton"
-        android:text="   GIVE NEW ORDER   " />
+        android:text="GIVE NEW ORDER" />
 
 </LinearLayout>
