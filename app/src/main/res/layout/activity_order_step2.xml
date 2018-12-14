@@ -4,29 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorGray"
+    android:background="@color/colorLoginBackGround"
     tools:context="com.example.coffee.coffeetime.OrderStep2">
 
     <TextView
         android:id="@+id/chooseLocationText"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
         android:gravity="center"
-        android:text="Please choose a store as your location to get your coffee"
-        android:textColor="@android:color/black"
-        android:textColorLink="@android:color/black"
-        android:textSize="24sp"
+        android:paddingLeft="10dp"
+        android:paddingTop="45dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="15dp"
+        android:text="Choose a store from the map to get your coffee"
+        android:textColor="#000000"
+        android:textSize="25sp"
         android:textStyle="bold"
-        app:fontFamily="casual"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:fontFamily="casual" />
 
     <ImageView
         android:id="@+id/imageMap"
         android:layout_width="0dp"
         android:layout_height="0dp"
-
         app:layout_constraintBottom_toTopOf="@+id/buttonContinuePayment"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
