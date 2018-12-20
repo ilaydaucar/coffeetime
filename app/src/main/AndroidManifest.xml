@@ -26,7 +26,8 @@
         <activity android:name=".OrderStep2" />
         <activity android:name=".OrderStep3" />
         <activity android:name=".MyOrders" />
-        <activity android:name=".Barcode"></activity>
+        <activity android:name=".Barcode" />
+        <activity android:name=".PackedCoffees"></activity>
     </application>
 
 </manifest>

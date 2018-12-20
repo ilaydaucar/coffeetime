@@ -10,5 +10,7 @@
     <color name="colorSoil">#330000</color>
     <color name="colorDarkerGray">#b0b1ac</color>
     <color name="colorDarkGreen">#283400</color>
+    <color name="black">#000000</color>
+    <color name="dark_gray">#64666b</color>
 
 </resources>

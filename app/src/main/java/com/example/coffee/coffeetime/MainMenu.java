@@ -19,6 +19,7 @@ import android.widget.Button;
 public class MainMenu extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
     Button giveOrderButtonInHomePage;
+    Button packedCoffeeButtonHomePage;
 
     ViewPager viewPager;
 
@@ -37,6 +38,15 @@ public class MainMenu extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        packedCoffeeButtonHomePage = findViewById(R.id.packedCoffeeButtonHomePage);
+        packedCoffeeButtonHomePage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent mainMenuToPackedCoffees = new Intent(MainMenu.this,PackedCoffees.class);
+                startActivity(mainMenuToPackedCoffees);
+            }
+        });
 
         giveOrderButtonInHomePage = findViewById(R.id.giveOrderButtonInHomePage);
         giveOrderButtonInHomePage.setOnClickListener(new View.OnClickListener() {
