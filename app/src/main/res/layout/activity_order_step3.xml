@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.coffee.coffeetime.OrderStep3">
+
+    <TextView
+        android:id="@+id/step1Text"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:text="Pay your coffee"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:fontFamily="casual" />
+
+    <ImageView
+        android:id="@+id/imageCreditCards"
+        android:layout_width="match_parent"
+        android:layout_height="169dp"
+        app:srcCompat="@mipmap/creditcardimageview" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/creditCardNumber1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="XXXX"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/creditCardNumber2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="XXXX"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/creditCardNumber3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="XXXX"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/creditCardNumber4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="XXXX"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/nameSurnamaPaymentPage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Name-Surname"
+        android:inputType="textPersonName" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/cvNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:editable="false"
+            android:ems="10"
+            android:hint="CV"
+            android:inputType="number"
+            android:textStyle="normal" />
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/black" />
+
+        <EditText
+            android:id="@+id/dateInPaymentPage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Date"
+            android:inputType="textPersonName|datetime" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buyCoffeeInStepThree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorSoil"
+        android:text="BUY THE COFFEE"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+</LinearLayout>

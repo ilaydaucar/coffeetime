@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@drawable/ic_notifications"
+            android:title="@string/nav_notification" />
+        <item
+            android:id="@+id/nav_orders"
+            android:layout_height="wrap_content"
+            android:icon="@mipmap/coffee_cup_500m"
+            android:title="@string/nav_orders" />
+        <item
+            android:id="@+id/nav_mycard"
+            android:icon="@mipmap/creditcard_foreground"
+            android:title="@string/nav_mycard" />
+        <item
+            android:id="@+id/nav_favourite"
+            android:icon="@drawable/ic_favourite"
+            android:title="@string/nav_favourite" />
+        <item
+            android:id="@+id/nav_coffee_beans"
+            android:icon="@drawable/ic_coffee_beans"
+            android:title="@string/nav_coffee_beans" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/nav_settings" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_exit"
+            android:title="@string/nav_logout" />
+    </group>
+
+</menu>

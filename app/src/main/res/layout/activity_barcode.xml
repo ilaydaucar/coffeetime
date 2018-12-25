@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.coffee.coffeetime.Barcode">
+
+    <TextView
+        android:id="@+id/orderCompleteText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginLeft="63dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginRight="63dp"
+        android:drawableRight="@mipmap/ic_launcher_check"
+        android:gravity="center"
+        android:text="Order is complete!"
+        android:textColor="@android:color/black"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageBarcode"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="130dp"
+        app:srcCompat="@mipmap/qrcodeimageview" />
+
+    <Button
+        android:id="@+id/homePageButtonBarcode"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="23dp"
+        android:layout_weight="1"
+        android:background="@color/colorSoil"
+        android:text="HOMEPAGE"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/myOrdersButtonBarcode"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/homePageButtonBarcode"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="81dp"
+        android:layout_weight="1"
+        android:background="@color/colorSoil"
+        android:text="MY ORDERS"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>
