@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_weight="1"
-    android:background="@drawable/coffee"
+    android:background="@drawable/login_background"
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".MainActivity">
@@ -17,7 +17,7 @@
         android:gravity="bottom|center"
         android:includeFontPadding="true"
         android:text="COFFEE TIME"
-        android:textColor="@android:color/white"
+        android:textColor="@color/colorSoil"
         android:textSize="30sp"
         android:textStyle="bold"
         app:fontFamily="casual" />
@@ -26,7 +26,7 @@
         android:id="@+id/loginEmail"
         android:layout_width="300dp"
         android:layout_height="40dp"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="40dp"
         android:background="@color/colorSoil"
         android:drawableLeft="@drawable/ic_action_user"
         android:ems="10"
@@ -90,6 +90,7 @@
             android:clickable="true"
             android:text="Please Register!"
             android:textColor="@android:color/holo_blue_dark" />
+
     </LinearLayout>
 
 </LinearLayout>
