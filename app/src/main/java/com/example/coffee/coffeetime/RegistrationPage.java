@@ -31,6 +31,7 @@ public class RegistrationPage extends AppCompatActivity {
     String TAG="BUG";
     DatabaseReference mDatabase;
     RadioButton Useragreement;
+    int value=0;
 
 
     @Override
@@ -69,16 +70,17 @@ public class RegistrationPage extends AppCompatActivity {
 
                     // Creating new user node, which returns the unique key value
                     // new user node would be /users/$userid/
-                    String userId = mDatabase.push().getKey();
+                 //   String userId = mDatabase.push().getKey();
+
 
                     // creating user object
-                    int value = Integer.parseInt(PhoneNumber.getText().toString());
-                    User user = new User(userId, registrationName.getText().toString(),
+                     User user = new User(registrationEmail.getText().toString(), registrationName.getText().toString(),
                             registrationSurname.getText().toString(), registrationEmail.getText().toString(), Password.getText().toString());
 
+                    String id=Password.getText().toString();
                     // pushing user to 'users' node using the userId
-                    mDatabase.child(userId).setValue(user);
-                    mDatabase.child(userId).addValueEventListener(new ValueEventListener() {
+                    mDatabase.child(id).setValue(user);
+                    mDatabase.child(id).addValueEventListener(new ValueEventListener() {
                         @Override
                         public void onDataChange(DataSnapshot dataSnapshot) {
 
@@ -93,6 +95,7 @@ public class RegistrationPage extends AppCompatActivity {
                             Log.w(TAG, "Failed to read value.", error.toException());
                         }
                     });
+                    value++;
                     Intent loginRegisterIntent = new Intent(RegistrationPage.this, Login.class);
                     startActivity(loginRegisterIntent);
                 }

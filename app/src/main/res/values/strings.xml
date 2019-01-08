@@ -47,5 +47,6 @@
     <string name="nav_settings">Settings</string>
     <string name="nav_logout">Logout</string>
     <string name="nav_coffee_beans">Coffe Beans</string>
+    <string name="title_activity_maps">Map</string>
 
 </resources>
