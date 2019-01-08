@@ -60,6 +60,17 @@ public class Login extends AppCompatActivity {
                         passwordDatabase = user.getPassword();
                         System.out.println("dataMail" + emailDatabase);
                         System.out.println("dataPassword" + passwordDatabase);
+                        if(loginEmail.getText().toString().equals(emailDatabase) &&loginPassword.getText().toString().equals(passwordDatabase)){
+                            System.out.println("IF");
+                            Intent loginToMainMenu = new Intent(Login.this,MainMenu.class);
+                            startActivity(loginToMainMenu);
+                        }
+                        else{
+                            System.out.println("ELSEdata");
+
+
+                            Toast.makeText(getBaseContext(),"Email or Password is incorrect. Please try again", Toast.LENGTH_SHORT).show();
+                        }
 
                         // Log.d("İlayda" , dataSnapshot.getValue().toString());
                     }
@@ -69,13 +80,7 @@ public class Login extends AppCompatActivity {
 
                     }
                 });
-                if(loginEmail.getText().toString().equals(emailDatabase) &&loginPassword.getText().toString().equals(passwordDatabase)){
-                    Intent loginToMainMenu = new Intent(Login.this,MainMenu.class);
-                    startActivity(loginToMainMenu);
-                }
-                else{
-                    Toast.makeText(getBaseContext(),"Email or Password is incorrect. Please try again", Toast.LENGTH_SHORT).show();
-                }
+
 
 
 
