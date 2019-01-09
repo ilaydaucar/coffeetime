@@ -14,6 +14,7 @@ public class OrderStep1 extends AppCompatActivity {
         setContentView(R.layout.activity_order_step1);
 
         Button continue_button = findViewById(R.id.buttonContinue);
+
         continue_button.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {

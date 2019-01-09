@@ -11,8 +11,11 @@ public class OrderStep2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_order_step2);
+
         Button continue_button = findViewById(R.id.buttonContinuePayment);
+
         continue_button.setOnClickListener(new View.OnClickListener() {
 
             @Override
