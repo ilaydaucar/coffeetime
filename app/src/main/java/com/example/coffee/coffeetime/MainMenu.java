@@ -20,7 +20,7 @@ public class MainMenu extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
     Button giveOrderButtonInHomePage;
     Button packedCoffeeButtonHomePage;
-
+    Button aboutCoffeeButtonHomePage;
     ViewPager viewPager;
 
     @Override
@@ -54,6 +54,14 @@ public class MainMenu extends AppCompatActivity
             public void onClick(View v) {
                 Intent loginToMainMenu = new Intent(MainMenu.this,OrderStep1.class);
                 startActivity(loginToMainMenu);
+            }
+        });
+        aboutCoffeeButtonHomePage = findViewById(R.id.aboutCoffeeButtonHomePage);
+        aboutCoffeeButtonHomePage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent mainMenuToPackedCoffees = new Intent(MainMenu.this,AboutCoffee.class);
+                startActivity(mainMenuToPackedCoffees);
             }
         });
 
